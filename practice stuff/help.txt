@@ -1,0 +1,36 @@
+db.session.query(Data).all()
+
+db.session.query(Data).get(1)
+
+print(db.session.query(Data).get(1))
+
+
+db.session.query(Data).get_or_404(1)
+
+https://jsonplaceholder.typicode.com/posts
+
+Flask Rest api
+https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+curl for command line tool and library 
+https://curl.se/
+
+https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+
+Rest Api
+https://codeloop.org/how-to-build-rest-api-with-sqlalchemy-marshmallow/#more-3008
+
+Temaplte Render
+https://codeloop.org/flask-crud-application-with-sqlalchemy/
+https://hackersandslackers.com/configure-flask-applications/
+
+
+pip freeze > requirements.txt
+
+
+.env example stuff
+-------------------------------------
+SECRET_KEY=asdksaldjkas4565454sadsadas6
+#SQLALCHEMY_DATABASE_URI=sqlite:///test.sqlite3
+PROD_DATABASE_URI=sqlite:///test.sqlite3
+DEV_DATABASE_URI=sqlite:///test.sqlite3
+SESSION_COOKIE_NAME=test

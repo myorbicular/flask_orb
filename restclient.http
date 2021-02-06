@@ -1,0 +1,31 @@
+### Add Post
+POST http://localhost:5000/api/v1/post HTTP/1.1
+content-type: application/json
+
+{
+  "author": "Kondaiah",
+  "description": "Mini Project",
+  "title": "FastApi"
+}
+
+
+###Get all posts
+GET http://localhost:5000/api/v1/get HTTP/1.1
+
+
+###Get single post
+GET http://localhost:5000/api/v1/post_details/1/ HTTP/1.1
+
+
+### Update Post
+PUT http://localhost:5000/api/v1/post_update/2/ HTTP/1.1
+content-type: application/json
+
+{
+  "author": "Ramesh Yele",
+  "description": "Big Project",
+  "title": "Django"
+}
+
+### Delete Post
+DELETE http://localhost:5000/api/v1/post_delete/2/ HTTP/1.1
